@@ -173,7 +173,7 @@ setup(
     ],
     entry_points={
         'xblock.v1': [
-            'coursegen-ai = coursegen-ai:coursegen_ai',
+            'coursegen-ai = coursegen-ai:coursegen-ai',
         ]
     },
     package_data=package_data("coursegen-ai", ["static", "public"]),
